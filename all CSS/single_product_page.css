@@ -1,0 +1,236 @@
+* {
+    font-family: 'poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 7rem;
+    overflow: auto;
+}
+
+html::-webkit-scrollbar {
+    width: 0;
+}
+
+body {
+    background: white;
+}
+
+.all-items {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+   .single-page-img {
+    margin-top: 50px;
+    padding-top: 51px;
+    margin-left: 50px;
+    padding-bottom: 51px;
+    height: 700px;
+    opacity: 5; /* Adjusted opacity value */
+    background: #e8e8e8;
+    position: relative; /* Added position property */
+
+    /* Added box-shadow for a highlighting effect */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.single-page-img img {
+    width: 100%; /* Ensure the image takes the full width of its container */
+    height: 100%; /* Ensure the image takes the full height of its container */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+}
+
+.information {
+    justify-content: center;
+    align-items: center;
+    padding: 15rem 0 10rem 5rem;
+}
+
+.information h5{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    word-spacing: 1px;
+    letter-spacing: 3px;
+    font-size: 1rem;
+    color: rgb(69, 69, 69);
+}
+
+.information h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    word-spacing: 1px;
+    letter-spacing: 3px;
+    font-size: 2.5rem;
+}
+
+.product-price .price-1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+         font-size: 45px;
+}
+
+.product-price .price-2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    word-spacing: 1px;
+    letter-spacing: 3px;
+    font-size: 1.3rem;
+    color: rgb(69, 69, 69);
+    padding: 0 0 0 1rem;
+}
+
+.original-price {
+    text-decoration: line-through;
+    margin-left: 10px; /* Adjust margin as needed */
+    color: #363535;
+    font-size: 20px;
+}
+
+
+.buy-now-btn{
+    margin-top: 2rem;
+    border-radius: 20px;
+    background: #2a2927;
+    padding: .4rem 10rem;
+    cursor: pointer;
+    color: white;
+}
+
+
+
+.share-{
+    display: flex;
+    flex-wrap: wrap;
+    margin:15px 0 0 5px;
+}
+
+.share- span {
+    color: rgba(0, 0, 0, 0.716);
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+
+.share- a i{
+    padding: 0 0 0 1rem;
+    font-size: 1.5rem;
+    color: rgb(0, 0, 0);
+}
+
+.share- a i:hover{
+    color: rgba(0, 0, 0, 0.559);
+}
+
+@media only screen and (max-width:600px) {
+    .all-items {
+        display: block;
+    }
+
+    .single-page-img {
+        width: 100%;
+    }
+
+    .information {
+        padding: 2rem 0 5rem 0rem;
+    }
+
+    .information h5{
+        word-spacing: 1px;
+        font-size: .9rem;
+        justify-content:flex-start;
+        margin-left: .7rem;
+    }
+
+    .information h2{
+        font-size: 2rem;
+        margin-left: .7rem;
+    }
+
+    .product-price .price-1{
+        letter-spacing: 2px;
+        font-size: 1.1rem;
+        margin-left: .7rem;
+    }
+
+    .product-price .price-2{
+        letter-spacing: 2px;
+        font-size: 1rem;
+    }
+
+    .buy-now-btn{
+        background: #2a2927;
+        padding: .2rem 5rem;
+        font-size: .8rem;
+        margin: 2rem 1rem 0 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .share- span {
+        font-size: .9rem;
+    }
+    
+    .share- a i{
+        font-size: 1.2rem;
+    }
+    
+}
+
+/* ----------------------------------------------------information------------------------------------------------------------------ */
+
+.single-info-page{
+    display: block;
+    flex-wrap: wrap;
+    margin: 4rem 10rem 0rem 10rem;
+    width: auto;
+}
+
+.single-info-text{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+}
+
+.single-info-img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.single-info-img .info-img{
+    width: 60%;
+}
+
+/* ---------------------------------------------------------------Video--------------------------------------------------- */
+
+.info-video{
+    display: block;
+    flex-wrap: wrap;
+    margin: 3rem 3rem 3rem 3rem;
+}
+
+.how-to-apply{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.how-to-apply h2{
+    color: rgb(64, 64, 64);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:x-large;
+    letter-spacing: 2px;
+}
+
+.video video{
+    width: 100%;
+}

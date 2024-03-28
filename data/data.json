@@ -1,0 +1,123 @@
+[
+    {
+        "id": 1,
+        "name":"LOUDA SKIN",
+        "price": 499,
+        "image":"all images/products page imgs/example img.png"
+    },
+
+    {
+        "id": 2,
+        "name":"LOUDA SKIN",
+        "price": 499,
+        "image":"all images/products page imgs/example img.png"
+    },
+    {
+        "id": 3,
+        "name":"LOUDA SKIN",
+        "price": 499,
+        "image":"all images/products page imgs/example img.png"
+    },
+    {
+        "id": 4,
+        "name":"LOUDA SKIN",
+        "price": 499,
+        "image":"all images/products page imgs/example img.png"
+    },
+    {
+        "id": 5,
+        "name":"LOUDA SKIN",
+        "price": 499,
+        "image":"all images/products page imgs/example img.png"
+    },
+    {
+        "id": 6,
+        "name":"LOUDA SKIN",
+        "price": 499,
+        "image":"all images/products page imgs/example img.png"
+    },
+    {
+        "id": 7,
+        "name":"LOUDA SKIN",
+        "price": 499,
+        "image":"all images/products page imgs/example img.png"
+    },
+    {
+        "id": 8,
+        "name":"LOUDA SKIN",
+        "price": 499,
+        "image":"all images/products page imgs/example img.png"
+    },
+    {
+        "id": 9,
+        "name":"LOUDA SKIN",
+        "price": 499,
+        "image":"all images/products page imgs/example img.png"
+    },
+    {
+        "id": 10,
+        "name":"LOUDA SKIN",
+        "price": 499,
+        "image":"all images/products page imgs/example img.png"
+    },
+    {
+        "id": 11,
+        "name":"LOUDA SKIN",
+        "price": 499,
+        "image":"all images/products page imgs/example img.png"
+    },
+    {
+        "id": 12,
+        "name":"LOUDA SKIN",
+        "price": 499,
+        "image":"all images/products page imgs/example img.png"
+    },
+    {
+        "id": 13,
+        "name":"LOUDA SKIN",
+        "price": 499,
+        "image":"all images/products page imgs/example img.png"
+    },
+    {
+        "id": 14,
+        "name":"LOUDA SKIN",
+        "price": 499,
+        "image":"all images/products page imgs/example img.png"
+    },
+    {
+        "id": 15,
+        "name":"LOUDA SKIN",
+        "price": 499,
+        "image":"all images/products page imgs/example img.png"
+    },
+    {
+        "id": 16,
+        "name":"LOUDA SKIN",
+        "price": 499,
+        "image":"all images/products page imgs/example img.png"
+    },
+    {
+        "id": 17,
+        "name":"LOUDA SKIN",
+        "price": 499,
+        "image":"all images/products page imgs/example img.png"
+    },
+    {
+        "id": 18,
+        "name":"LOUDA SKIN",
+        "price": 499,
+        "image":"all images/products page imgs/example img.png"
+    },
+    {
+        "id": 19,
+        "name":"LOUDA SKIN",
+        "price": 499,
+        "image":"all images/products page imgs/example img.png"
+    },
+    {
+        "id": 20,
+        "name":"LOUDA SKIN",
+        "price": 499,
+        "image":"all images/products page imgs/example img.png"
+    }
+]
